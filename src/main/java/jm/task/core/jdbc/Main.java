@@ -28,6 +28,6 @@ public class Main {
 //        Удаление таблицы
         userService.dropUsersTable();
 
-        Util.closeConnection();
+        Util.closeSessionFactory();
     }
 }
